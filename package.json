@@ -8,6 +8,9 @@
     "start": "node App.js",
     "dev": "nodemon App.js"
   },
+  "engines": {
+    "node": "22.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
