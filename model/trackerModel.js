@@ -11,7 +11,7 @@ const tracker_model = new Schema ({
     },
     category : {
         type : String,
-        enum : ["Food","Transport","Internet","Other"],
+        enum : ["Food","Transport","Internet","trips","Health","Other"],
         require : true
     },
     date : {
